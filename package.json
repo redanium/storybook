@@ -46,6 +46,7 @@
     "import-repo": "lerna import",
     "bootstrap": "lerna bootstrap",
     "bootstrap:test-cra": "lerna exec --scope test-cra -- npm i",
+    "bootstrap:react-native-vanilla": "lerna exec --scope react-native-vanilla -- npm i",
     "bootstrap:docs": "cd docs && npm i",
     "lint": "npm run lint:js && npm run lint:markdown",
     "lint:js": "eslint . --cache --cache-location=.cache/eslint/main --ext .js,.jsx",
